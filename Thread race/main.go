@@ -12,7 +12,7 @@ func main() {
 	winner := make(chan string)
 
 	// Inicia as threads
-	for i := 0; i < 9; i++ {
+	for i := 0; i < 10; i++ {
 		go ThreadRace(i, winner)
 	}
 
