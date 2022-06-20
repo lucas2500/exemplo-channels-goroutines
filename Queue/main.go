@@ -26,7 +26,7 @@ func main() {
 		// as demais tenham tempo de serem executadas.
 		// Sem o sleep a thread principal monopoliza o uso da CPU
 		// e finaliza o programa após sua execução, não dando chance
-		// de nenuma outra thread ser executada
+		// de nenhuma outra thread ser executada
 	}
 }
 
